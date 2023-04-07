@@ -1,0 +1,1 @@
+说说loader的几个模式，优先级顺序：pre、normal、inline、post
