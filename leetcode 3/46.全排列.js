@@ -43,9 +43,8 @@ var permute = function(nums) {
   const visited = new Array(len).fill(false);
 
   const dfs = (depth, path) => {
-      // 遍历到叶子结点了，可以返回了
       if(depth === len) {
-        result.push(path.slice());
+        result.push(path.slice().join(''));
       }
 
       for(let i = 0; i < len; i++) {

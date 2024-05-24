@@ -45,9 +45,9 @@ class EventEmitter {
 
       // 循环数组找到该函数并移除
       for (let i = 0; i < this.list[name].length; i++) {
-            if (this.list[name][i] == fn) {
+          if (this.list[name][i] == fn) {
               this.list[name].splice(i, 1);
-            }
+          }
       }
       return true
   }

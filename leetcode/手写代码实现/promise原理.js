@@ -43,7 +43,7 @@ class Promise {
         })
   
         this.onRejectedCallback.push(() => {
-          onRejected(this.reason)
+          onRejected(this.value)
         })
       }
     })
